@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+body {
+  background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  width: 100%;
   display: flex;
+  padding-top: 20%;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+
 }
 
-.App-link {
-  color: #61dafb;
+.panel {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 150px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.RED {
+  width: 25%;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+  background-color: red;
+}
+.BLUE {
+  width: 25%;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+  background-color: blue;
+}
+
+.YELLOW {
+  width: 25%;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+  background-color: yellow;
+}
+
+.GREEN {
+  width: 25%;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+  background-color: green;
+}
+.LIME {
+  width: 25%;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+  background-color: LIME;
+}
+.ORANGE {
+  width: 25%;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+  background-color: ORANGE;
+}
+.BROWN {
+  width: 25%;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+  background-color: BROWN;
+}
+.MAGENTA {
+  width: 25%;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+  background-color: MAGENTA;
 }
